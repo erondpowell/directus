@@ -1,14 +1,14 @@
 # Quickstart Guide
 
 > If you're looking for the fastest way to get up-and-running with Directus, this guide will walk you through getting
-> things installed, configured, and modeled.
+> things installed, configured and modeled.
 
 ## 1. Installation
 
-Make sure you have the latest LTS version or newer of [Node.js](https://nodejs.dev) installed, and have a running
+Make sure you have the latest LTS version or newer of [Node.js](https://nodejs.dev) installed and have a running
 database ready to connect to.
 
-Run the following command in your terminal and follow the prompts.
+Run the following command in your terminal and follow the prompts:
 
 ```bash
 npm init directus-project example-project
