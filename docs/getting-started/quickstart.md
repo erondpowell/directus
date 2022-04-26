@@ -17,7 +17,7 @@
 3. Now you're ready to [create a Community Project](/cloud/projects/#create-a-community-project).
 
 _It should take around 90 seconds for the Cloud Project to build out. During this time, a link will be sent to the email
-associated with you Cloud Account. The email will contain your Project URL as well as an email and password to login. If
+associated with your Cloud Account. The email will contain your Project URL as well as an email and password to login. If
 you used GitHub to create your account, this will be your GitHub email. Once the build is complete, it's time log in to
 the app!_
 
