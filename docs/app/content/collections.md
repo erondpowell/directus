@@ -1,3 +1,5 @@
+-- a clear change
+
 # Collection Page
 
 > The Collection Page displays all Items within a Collection and comes with highly configurable Layouts for browsing,
