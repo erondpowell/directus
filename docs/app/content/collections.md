@@ -1,4 +1,4 @@
-# Collection Page
+# The Collection Page
 
 > The Collection Page displays all Items within a Collection and comes with highly configurable Layouts for browsing,
 > visualizing, and managing these Items.
