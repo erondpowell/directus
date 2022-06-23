@@ -57,6 +57,6 @@ Learn how to [manage Items via the API](/reference/items/).
 </video>
 
 In any Project, some Collections may be accessible for only certain User roles, or hidden from the public. You may decide to share one of the Items within 
-the collection with an individual or gropu of individuals who don't yet have permission. In this case, use Shares.
+the collection with an individual or group of individuals who don't yet have permission. In this case, use Shares.
 Shares enables you to  share an Item from a Collection with anyone, regardless of their permissions, and even if
 they are not Users within the project. To learn more, see our guide on [Data Sharing](/app/content/data-sharing).
