@@ -34,7 +34,7 @@ project management tasks, geo-coordinates, temporal data or beyond; Layouts pres
 </video>
 
 Find all Items with one or more Fields containing your searched value, excluding any Items that have been
-[filtered out](#filter-items). To search through a Collection's Items, follow the steps below.
+[filtered out](#filter-items). To search through a Collection's Items:
 
 1. Navigate to the Content Module and select the desired Collection.
 2. Select <span mi icon>search</span> in the Page Header and a search bar will appear.
@@ -57,7 +57,7 @@ and more. To learn more, see our guide on [Filters](/app/filters/).
 </video>
 
 You can choose to drag and drop Items to manually custom-sort them as desired, but only on certain Layouts, such as the default
-[Table Layout](/app/layouts/#table-layout). To sort a Collection's Items, follow the steps below.
+[Table Layout](/app/layouts/#table-layout). To sort a Collection's Items:
 
 1. Be sure a sorting column has been configured under **"Settings > Data Model > Collection"**.\
 _(Shown in the video)_
@@ -107,7 +107,7 @@ Automatic sorting will not change your data.
 
 The Directus no-code app enables you to hide archived Items, display them alongside other Items, or display archived Items only.
 To learn how to archive an Item, see our guide on the [Item Page](/app/content/items/#archive-an-item). To change
-whether an archived Item is displayed, follow the steps below.
+whether an archived Item is displayed:
 
 1. Navigate to the Content Module and select the desired Collection.
 2. Click **"Archive"** in the Sidebar.
@@ -153,7 +153,7 @@ data for transformation, reports, analysis, and beyond. To learn more, see how t
 
 It is possible to delete, archive, or edit multiple Items at once from the Collection Page. When you delete an Item, it is permanently
 deleted from the database, and the deletion cannot be reversed. When batch editing, the Item Page opens, enabling you to make
-the same edit across multiple Items. Follow the steps below to batch delete, archive, or edit Items.
+the same edit across multiple Items. Follow the steps below to batch delete, archive, or edit Items:
 
 1. Navigate to the Content Module and select the desired Collection.
 2. Choose a [Layout](/app/layouts) that supports multiple Item selection from the Sidebar.\
