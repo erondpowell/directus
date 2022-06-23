@@ -1,7 +1,7 @@
 # Collection Page
 
 > The Collection Page displays all Items within a Collection and comes with highly configurable Layouts for browsing,
-> visualizing, and managing these Items.
+> visualizing, and managing those Items.
 
 [[toc]]
 
@@ -24,7 +24,7 @@ Link to tutorial
 </video>
 
 Layouts determine how you view or interact with Items in a Collection. Whether your Collection contains blog posts,
-project management tasks, geo-coordinates, temporal data or beyond; Layouts present Items in a more human-friendly way.
+project management tasks, geo-coordinates, temporal data or beyond; Layouts present Items in a more user-friendly way.
 [Learn More](/app/layouts)
 
 ## Search Items
@@ -33,12 +33,12 @@ project management tasks, geo-coordinates, temporal data or beyond; Layouts pres
 	<source src="https://cdn.directus.io/docs/v9/app-guide/content/content-collections/content-collections-20220415A/search-items-20220419A.mp4" type="video/mp4" />
 </video>
 
-Find all Items with one or more Fields containing your searched value, excluding any Items which have been
+Find all Items with one or more Fields containing your searched value, excluding any Items that have been
 [filtered out](#filter-items). To search through a Collection's Items, follow the steps below.
 
 1. Navigate to the Content Module and select the desired Collection.
 2. Select <span mi icon>search</span> in the Page Header and a search bar will appear.
-3. Type in the value to search for.
+3. Type in the value you wish to search for.
 
 ## Filter Items
 
@@ -46,9 +46,9 @@ Find all Items with one or more Fields containing your searched value, excluding
 	<source src="https://cdn.directus.io/docs/v9/app-guide/content/content-collections/content-collections-20220415A/filter-items-2022019A.mp4" type="video/mp4" />
 </video>
 
-Filters allow you to conditionally select Items from a Collection. Use-cases include customizing Item search results,
+Filters enable you to conditionally select Items from a Collection. Use-cases include customizing Item search results,
 restricting Item access permissions for specific Users or Roles, building dashboard analytics with the Insights module,
-and more. To Learn More, see our guide on [Filters](/app/filters/).
+and more. To learn more, see our guide on [Filters](/app/filters/).
 
 ## Manually Sort Items
 
@@ -56,14 +56,14 @@ and more. To Learn More, see our guide on [Filters](/app/filters/).
 	<source src="https://cdn.directus.io/docs/v9/app-guide/content/content-collections/content-collections-20220415A/manually-sort-items-20220415A.mp4" type="video/mp4" />
 </video>
 
-Drag and drop Items to custom sort them as desired. This is only possible on certain Layouts, such as the default
+You can choose to drag and drop Items to manually custom-sort them as desired, but only on certain Layouts, such as the default
 [Table Layout](/app/layouts/#table-layout). To sort a Collection's Items, follow the steps below.
 
 1. Be sure a sorting column has been configured under **"Settings > Data Model > Collection"**.\
 _(Shown in the video)_
 <!-- @TODO configuration > Data Model: Link -->
 2. Navigate to the Content Module and select the desired Collection.
-3. In the Sidebar, be sure a [Layout](#adjust-page-layout) is chosen that supports manual sorting.
+3. In the Sidebar, choose a [Layout](#adjust-page-layout) that supports manual sorting.
 4. Enable manual sorting:
    - For the Table Layout, toggle <span mi icon>sort</span> in the configured Sort column.
 5. Drag Items by their handle into a new position.
@@ -79,8 +79,7 @@ Only available if a Sort column has been configured under:\
 
 :::tip
 
-Sorting saves a value in a [Sort Field](/reference/query/#sort). This value is used to return data in a custom order.
-This means that while the values in this Sort Field do get updated and modified, values in other Fields are not changed.
+Sorting saves a value in a [Sort Field](/reference/query/#sort). This value is used to return data in a custom order, so that as values in the Sort Field are updated and modified, values in other Fields remain unchanged.
 
 :::
 
@@ -90,13 +89,13 @@ This means that while the values in this Sort Field do get updated and modified,
 	<source src="https://cdn.directus.io/docs/v9/app-guide/content/content-collections/content-collections-20220415A/automatically-sort-items-20220415A.mp4" type="video/mp4" />
 </video>
 
-Sort Items alphabetically or numerically, in ascending or descending order. Sorting is not possible on certain Layouts,
+You can sort Items alphabetically or numerically in ascending or descending order. Automatic sorting is not possible on certain Layouts,
 such as the Map Layout. Layouts that do support automatic sorting have controls in slightly different locations. To
 learn more, see [Layouts](/app/layouts).
 
 ::: tip
 
-Automatic sorting is a non-destructive action which does not change your data.
+Automatic sorting will not change your data.
 
 :::
 
@@ -106,7 +105,7 @@ Automatic sorting is a non-destructive action which does not change your data.
 	<source src="https://cdn.directus.io/docs/v9/app-guide/content/content-collections/content-collections-20220415A/view-archived-items.mp4" type="video/mp4" />
 </video>
 
-The no-code app allows you to hide archived Items, display them alongside other Items, or display archived Items only.
+The Directus no-code app enables you to hide archived Items, display them alongside other Items, or display archived Items only.
 To learn how to archive an Item, see our guide on the [Item Page](/app/content/items/#archive-an-item). To change
 whether an archived Item is displayed, follow the steps below.
 
@@ -119,7 +118,7 @@ whether an archived Item is displayed, follow the steps below.
 
 :::warning Archiving Requires Configuration
 
-Only available if an Archive column has been configured under:\
+Archiving is only available if an Archive column has been configured under:\
  **"Settings > Data Model > Collection > Archive"**.
 
 <!-- @TODO configuration > Data Model: Link to section on archiving -->
@@ -132,16 +131,16 @@ Only available if an Archive column has been configured under:\
 	<source src="https://cdn.directus.io/docs/v9/app-guide/content/content-collections/content-collections-20220415A/presets-and-bookmarks-20220415A.mp4" type="video/mp4" />
 </video>
 
-Save how a Collection Page looks so that you can return to the exact same view later, including details such as the
-Layout, searches, filters, sorting, ordering, etc. To learn more, see our guide on
+You can save how a Collection Page looks so that you can return to the exact same view later, including details such as the
+layout, searches, filters, sorting, ordering, and more. To learn more, see our guide on
 [Presets and Bookmarks](/configuration/presets-bookmarks/).
 
 ## Import / Export Items
 
 ![Import and Export Items](https://cdn.directus.io/docs/v9/app-guide/content/content-collections/content-collections-20220415A/imports-exports-20220416A.webp)
 
-The Content, User Directory and File Library modules allow importing and exporting of multiple Items stored as files.
-This makes it quick and easy to handle tasks like uploading and downloading new customer information; pulling down sales
+The Content, User Directory, and File Library modules enable you to import or export multiple Items stored as files.
+This makes it quick and easy to handle tasks such as uploading and downloading new customer information, or accessing sales
 data for transformation, reports, analysis, and beyond. To learn more, see how to
 [Import and Export Items](/app/import-export/) in file format.
 
@@ -152,8 +151,8 @@ data for transformation, reports, analysis, and beyond. To learn more, see how t
 " type="video/mp4" />
 </video>
 
-It is possible to delete, archive, or edit multiple Items at once from the Collection Page. Deletion will permanently
-delete Items from the database, this cannot be reverted. When batch editing, the Item Page opens, allowing you to make
+It is possible to delete, archive, or edit multiple Items at once from the Collection Page. When you delete an Item, it is permanently
+deleted from the database, and the deletion cannot be reversed. When batch editing, the Item Page opens, enabling you to make
 the same edit across multiple Items. Follow the steps below to batch delete, archive, or edit Items.
 
 1. Navigate to the Content Module and select the desired Collection.
